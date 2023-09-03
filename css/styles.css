@@ -80,7 +80,7 @@ span.logo {
     font-weight: 700;
     line-height: 1.07;
     letter-spacing: 0, 02em;
-    background-color: #2E2F42;
+    background-color: #2e2f42;
     /* TODO: replace with img*/
 }
 
@@ -167,11 +167,11 @@ span.logo {
 .Portfolio-link {
 
     color: #2E2F42;
-    font-family: Roboto;
+    font-family: Roboto, sans-serif;
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
-    letter-spacing: 0.4px;
+    letter-spacing: 0.02em;
     background: #FFF;
 }
 
@@ -182,7 +182,7 @@ span.logo {
     font-size: 36px;
     font-style: normal;
     font-weight: 700;
-    line-height: 1.1;
+    line-height: 1.11;
     letter-spacing: 0.72px;
     text-transform: capitalize;
 }
