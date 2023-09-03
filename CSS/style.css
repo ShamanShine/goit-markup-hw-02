@@ -16,7 +16,7 @@ span.logo {
 
 .nav-link {
     color: #2E2F42;
-    font-family: Roboto;
+    font-family: Roboto, sans-serif;
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
@@ -43,7 +43,7 @@ span.logo {
 .main-section {
     color: #FFF;
     text-align: center;
-    font-family: Roboto;
+    font-family: Roboto, sans-serif;
     font-size: 56px;
     font-style: normal;
     font-weight: 700;
@@ -72,7 +72,7 @@ span.logo {
 /*Main-page*/
 .Main-page {
     color: #2E2F42;
-    font-family: Roboto;
+    font-family: Roboto, sans-serif;
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
@@ -81,7 +81,7 @@ span.logo {
 
 .contact-link {
     color: #434455;
-    font-family: Roboto;
+    font-family: Roboto, sans-serif;
     font-style: normal;
     font-size: 16px;
     line-height: 1.5;
@@ -93,7 +93,7 @@ span.logo {
 .Our-team-item {
     color: #2E2F42;
     text-align: center;
-    font-family: Roboto;
+    font-family: Roboto, sans-serif;
     font-size: 36px;
     font-style: normal;
     font-weight: 700;
@@ -105,6 +105,26 @@ span.logo {
 .Our-team-link {
     color: #2E2F42;
     text-align: center;
+    font-family: Roboto, sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.4px;
+}
+
+.our-team-item {
+    color: #434455;
+    text-align: center;
+    font-family: Roboto, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.32px;
+}
+
+/*Portfolio*/
+.Portfolio-link {
+
+    color: #2E2F42;
     font-family: Roboto;
     font-size: 20px;
     font-weight: 500;
@@ -112,41 +132,49 @@ span.logo {
     letter-spacing: 0.4px;
 }
 
-/*Portfolio*/
-.Portfolio-link {
-
-    text-align: center;
+.portfolio-tite {
     color: #2E2F42;
-    font-family: Roboto;
+    text-align: center;
+    font-family: Roboto, sans-serif;
     font-size: 36px;
+    font-style: normal;
     font-weight: 700;
     line-height: 1.1;
     letter-spacing: 0.72px;
     text-transform: capitalize;
 }
 
-.portfolio-tite {
-    text-align: center;
-    letter-spacing: 0.02em;
-    text-transform: capitalize;
+.portfolio-item {
+    color: #434455;
+    font-family: Roboto, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.32px;
 }
 
 /*Footer*/
 .footer-link {
-    font-family: Roboto;
+    font-family: Roboto, sans-serif;
     color: #F4F4FD;
     line-height: 24px;
     letter-spacing: 0.32px;
     background: #2E2F42;
 }
 
+.footer-item {
+    color: #F4F4FD;
+    font-family: Roboto, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.32px;
+}
+
 .logo-footer {
     color: #F4F4FD;
 }
-
-
-
-
 
 ul,
 ol {
