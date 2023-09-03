@@ -27,7 +27,7 @@ span.logo {
 }
 
 .nav-link {
-    color: #2E2F42;
+    color: #434455;
     font-family: Roboto, sans-serif;
     font-size: 16px;
     font-weight: 500;
@@ -41,7 +41,7 @@ span.logo {
 }
 
 .nav-link:hover {
-    color: #404BBF;
+    color: #404bbf;
 }
 
 .address-link {
@@ -180,9 +180,8 @@ span.logo {
     text-align: center;
     font-family: Roboto, sans-serif;
     font-size: 36px;
-    font-style: normal;
     font-weight: 700;
-    line-height: 1.11;
+    line-height: 1.11em;
     letter-spacing: 0.72px;
     text-transform: capitalize;
 }
