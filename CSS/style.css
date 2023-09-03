@@ -1,14 +1,16 @@
 .logo {
-    color: #2E2F42;
-    font-family: Raleway;
+    color: #4D5AE5;
+    font-family: Raleway, sans-serif;
     font-size: 18px;
     font-weight: 700;
+    letter-spacing: 0.03em;
     text-transform: uppercase;
     text-decoration: none;
+    line-height: 1.17
 }
 
 span.logo {
-    color: #4D5AE5;
+    color: #2E2F42;
 }
 
 .nav-link {
@@ -16,17 +18,22 @@ span.logo {
     font-family: Roboto;
     font-size: 16px;
     font-weight: 500;
-    line-height: 0.6;
+    line-height: 1.5;
     letter-spacing: 0.32px;
     text-decoration: none;
+}
+
+.nav-link:focus {
+    color: #404bbf;
 }
 
 .nav-link:hover {
     color: #404BBF;
 }
 
-body {
-    color: var(--NAVY-BLUE, #2E2F42);
+.body {
+    color: #434455;
+    background-color: #FFFFFF;
     font-family: 'Roboto',
         'sans-serif';
 }
@@ -55,8 +62,9 @@ body {
 .contact-link {
     color: #434455;
     font-family: Roboto;
+    font-style: normal;
     font-size: 16px;
-    line-height: 1, 5;
+    line-height: 1.5;
     letter-spacing: 0.32px;
     text-decoration: none;
 }
