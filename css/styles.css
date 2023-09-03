@@ -136,7 +136,7 @@ span.logo {
 
 
 /*Our-team*/
-.Our-team {
+.our-team {
     color: #2E2F42;
     text-align: center;
     font-family: Roboto, sans-serif;
@@ -157,7 +157,7 @@ span.logo {
     font-weight: 500;
     line-height: 1.2em;
     letter-spacing: 0.4px;
-    background: #F4F4FD;
+
 }
 
 .our-team-item {
@@ -165,7 +165,7 @@ span.logo {
     text-align: center;
     font-family: Roboto, sans-serif;
     font-size: 16px;
-    line-height: 1.5;
+    line-height: 1.5em;
     letter-spacing: 0.32px;
 }
 
