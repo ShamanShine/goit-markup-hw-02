@@ -1,3 +1,15 @@
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
+button {
+    font-family: inherit;
+}
+
 /*Navigation, logo*/
 .logo {
     color: #4D5AE5;
@@ -33,23 +45,29 @@ span.logo {
 }
 
 .address-link {
+    text-decoration: none;
     color: #434455;
     font-family: Roboto, sans-serif;
     font-style: normal;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.32px;
-    text-decoration: none;
+
 }
 
 .address-link:hover {
-    color: #404BBF
+    color: #404bbf
+}
+
+.address-link:focus {
+    color: #404bbf
 }
 
 .body {
     color: #434455;
     background-color: #FFFFFF;
     font-family: Roboto, sans-serif;
+    font-size: 14px;
 }
 
 /*Main-section*/
@@ -60,8 +78,8 @@ span.logo {
     font-size: 56px;
     font-style: normal;
     font-weight: 700;
-    line-height: 1.0;
-    letter-spacing: 1.12px;
+    line-height: 1.07;
+    letter-spacing: 0, 02em;
     background-color: #2E2F42;
     /* TODO: replace with img*/
 }
@@ -79,11 +97,15 @@ span.logo {
     line-height: 1.5em;
     letter-spacing: 0.64px;
     background: #4D5AE5;
+    cursor: pointer;
 }
 
 .main-button:hover {
     color: #FFFFFF;
-    cursor: pointer;
+    background-color: #404BBF;
+}
+
+.main-button:focus {
     background-color: #404BBF;
 }
 
@@ -93,10 +115,18 @@ span.logo {
     font-family: Roboto, sans-serif;
     font-size: 20px;
     font-weight: 500;
-    line-height: 1.2;
+    line-height: 1.2em;
     letter-spacing: 0.4px;
+    background: #FFF;
 }
 
+.main-page-title {
+    color: #434455;
+    font-family: Roboto, sans-serif;
+    font-size: 16px;
+    line-height: 1.5em;
+    letter-spacing: 0.32px;
+}
 
 
 /*Our-team*/
@@ -107,9 +137,10 @@ span.logo {
     font-size: 36px;
     font-style: normal;
     font-weight: 700;
-    line-height: 1.1;
+    line-height: 1.1em;
     letter-spacing: 0.72px;
     text-transform: capitalize;
+    background: #F4F4FD;
 }
 
 .Our-team-link {
@@ -118,8 +149,9 @@ span.logo {
     font-family: Roboto, sans-serif;
     font-size: 20px;
     font-weight: 500;
-    line-height: 1.2;
+    line-height: 1.2em;
     letter-spacing: 0.4px;
+    background: #F4F4FD;
 }
 
 .our-team-item {
@@ -140,6 +172,7 @@ span.logo {
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.4px;
+    background: #FFF;
 }
 
 .portfolio-tite {
