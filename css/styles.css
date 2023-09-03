@@ -19,7 +19,7 @@ button {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     text-decoration: none;
-    line-height: 1.17
+    line-height: 1.17;
 }
 
 span.logo {
@@ -27,7 +27,7 @@ span.logo {
 }
 
 .nav-link {
-    color: #434455;
+    color: #2E2F42;
     font-family: Roboto, sans-serif;
     font-size: 16px;
     font-weight: 500;
@@ -36,13 +36,15 @@ span.logo {
     text-decoration: none;
 }
 
+.nav-link:hover {
+    color: #404bbf;
+}
+
 .nav-link:focus {
     color: #404bbf;
 }
 
-.nav-link:hover {
-    color: #404bbf;
-}
+
 
 .address-link {
     text-decoration: none;
@@ -110,6 +112,10 @@ span.logo {
 }
 
 /*Main-page*/
+.maine {
+    background-color: #FFF;
+}
+
 .Main-page {
     color: #2E2F42;
     font-family: Roboto, sans-serif;
