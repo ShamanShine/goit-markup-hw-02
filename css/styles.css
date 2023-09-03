@@ -31,7 +31,7 @@ span.logo {
     font-family: Roboto, sans-serif;
     font-size: 16px;
     font-weight: 500;
-    line-height: 1.5;
+    line-height: 1.5em;
     letter-spacing: 0.32px;
     text-decoration: none;
 }
@@ -50,7 +50,7 @@ span.logo {
     font-family: Roboto, sans-serif;
     font-style: normal;
     font-size: 16px;
-    line-height: 1.5;
+    line-height: 1.5em;
     letter-spacing: 0.32px;
 
 }
@@ -79,7 +79,7 @@ span.logo {
     font-style: normal;
     font-weight: 700;
     line-height: 1.07;
-    letter-spacing: 0, 02em;
+    letter-spacing: 0.02em;
     background-color: #2e2f42;
     /* TODO: replace with img*/
 }
@@ -116,7 +116,7 @@ span.logo {
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2em;
-    letter-spacing: 0.4px;
+    letter-spacing: 0.02em;
     background: #FFF;
 }
 
@@ -130,7 +130,7 @@ span.logo {
 
 
 /*Our-team*/
-.Our-team-item {
+.Our-team {
     color: #2E2F42;
     text-align: center;
     font-family: Roboto, sans-serif;
