@@ -1,3 +1,4 @@
+/*Navigation, logo*/
 .logo {
     color: #4D5AE5;
     font-family: Raleway, sans-serif;
@@ -38,7 +39,16 @@ span.logo {
         'sans-serif';
 }
 
+/*Main-section*/
 .main-section {
+    color: #FFF;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.0;
+    letter-spacing: 1.12px;
     background-color: #2E2F42;
     /* TODO: replace with img*/
 }
@@ -59,6 +69,16 @@ span.logo {
     background-color: #404BBF;
 }
 
+/*Main-page*/
+.Main-page {
+    color: #2E2F42;
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.4px;
+}
+
 .contact-link {
     color: #434455;
     font-family: Roboto;
@@ -69,10 +89,55 @@ span.logo {
     text-decoration: none;
 }
 
+/*Our-team*/
+.Our-team-item {
+    color: #2E2F42;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.1;
+    letter-spacing: 0.72px;
+    text-transform: capitalize;
+}
+
+.Our-team-link {
+    color: #2E2F42;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.4px;
+}
+
+/*Portfolio*/
+.Portfolio-link {
+
+    text-align: center;
+    color: #2E2F42;
+    font-family: Roboto;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.1;
+    letter-spacing: 0.72px;
+    text-transform: capitalize;
+}
+
+.portfolio-tite {
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+}
+
+/*Footer*/
 .footer-link {
     font-family: Roboto;
+    color: #F4F4FD;
     line-height: 24px;
     letter-spacing: 0.32px;
+    background: #2E2F42;
 }
 
 ul,
