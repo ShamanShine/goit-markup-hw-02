@@ -76,7 +76,6 @@ span.logo {
     text-align: center;
     font-family: Roboto, sans-serif;
     font-size: 56px;
-    font-style: normal;
     font-weight: 700;
     line-height: 1.07;
     letter-spacing: 0.02em;
@@ -92,7 +91,6 @@ span.logo {
     color: #FFF;
     font-family: Roboto, sans-serif;
     font-size: 16px;
-    font-style: normal;
     font-weight: 500;
     line-height: 1.5em;
     letter-spacing: 0.64px;
@@ -138,7 +136,6 @@ span.logo {
     text-align: center;
     font-family: Roboto, sans-serif;
     font-size: 36px;
-    font-style: normal;
     font-weight: 700;
     line-height: 1.1em;
     letter-spacing: 0.72px;
@@ -161,7 +158,6 @@ span.logo {
     text-align: center;
     font-family: Roboto, sans-serif;
     font-size: 16px;
-    font-weight: 400;
     line-height: 1.5em;
     letter-spacing: 0.32px;
 
@@ -193,7 +189,6 @@ span.logo {
     color: #434455;
     font-family: Roboto, sans-serif;
     font-size: 16px;
-    font-weight: 400;
     line-height: 1.5em;
     letter-spacing: 0.32px;
 }
@@ -211,8 +206,6 @@ span.logo {
     color: #F4F4FD;
     font-family: Roboto, sans-serif;
     font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0.32px;
 }
