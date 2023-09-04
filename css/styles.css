@@ -69,9 +69,6 @@ a {
 
 /*First section*/
 .fon {
-    width: 1440px;
-    height: 600px;
-    flex-shrink: 0;
     background: var(--NAVY-BLUE, #2E2F42);
 }
 
@@ -100,10 +97,6 @@ a {
     line-height: 1.5em;
     letter-spacing: 0.64px;
     background: #4D5AE5;
-    display: inline-flex;
-    padding: 16px 32px;
-    align-items: flex-start;
-    gap: 10px;
     cursor: pointer;
 }
 
