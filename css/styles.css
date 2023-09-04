@@ -174,7 +174,6 @@ a {
     background: #FFF;
 }
 
-
 .portfolio {
     color: #2E2F42;
     text-align: center;
@@ -187,7 +186,7 @@ a {
     background: #FFF;
 }
 
-.Portfolio-link {
+.portfolio-link {
     color: #2E2F42;
     font-family: Roboto, sans-serif;
     font-size: 20px;
@@ -195,7 +194,6 @@ a {
     line-height: 1.2em;
     letter-spacing: 0.4px;
 }
-
 
 .portfolio-item {
     color: #434455;
